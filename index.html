@@ -29,6 +29,10 @@
                   margin: 0;
                   padding: 0;
             }
+
+            .project-bg {
+                  background-image: url(./assets/bg.jpg);
+            }
       </style>
 </head>
 
@@ -251,7 +255,7 @@
                   </div>
             </section>
             <!-- Our Latest Portfolio -->
-            <section class="container mx-auto w-[90%] -scroll-mt-10 md:p-8 hidden">
+            <section class="container mx-auto w-[90%] mt-10 md:p-8 hidden">
                   <div class="border border-black">
                         <div class="flex justify-center items-center">
                               <div
@@ -471,68 +475,66 @@
                   </div>
             </section>
             <!-- Let’s Discuss Next Project -->
-            <section class="bg-[url(../assets/bg.jpg)] bg-cover mt-10">
-                  <div class="md:p-14 container mx-auto w-[90%] h-[700px]">
-                        <div>
-                              <div class="flex justify-center items-center">
-                                    <div
-                                          class="flex bg-[#acef5f59] rounded-full text-[#494949] font-bold md:w-[20%] p-1 justify-center items-center gap-2 w-[40%]">
-                                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" class="size-5">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                      d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                                          </svg>
+            <section class="project-bg bg-cover mt-10">
+                  <div class="md:p-14 p-6 container mx-auto w-[90%] h-[700px]">
+                        <div class="flex justify-center items-center">
+                              <div
+                                    class="flex bg-[#acef5f59] rounded-full text-[#494949] font-bold md:w-[20%] p-1 justify-center items-center gap-2 w-[40%] border border-black ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                          stroke-width="1.5" stroke="currentColor" class="size-5">
+                                          <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                                    </svg>
 
-                                          <button>Let’s Connect</button>
-                                    </div>
+                                    <button>Let’s Connect</button>
                               </div>
-                              <h1 class="md:text-4xl text-3xl font-bold text-[#212121] text-center mt-3">Let’s Discuss
-                                    Next
-                                    Project
-                              </h1>
-                              <p class="text-[#494949] md:w-[60%] mx-auto text-center mt-3 md:mt-5">The barn
-                                    house
-                                    captivates
-                                    with its blend of rustic
-                                    charm and modern sophistication, featuring
-                                    weathered wood, sleek metal accents.
-                              </p>
-                              <div class="mt-6">
-                                    <div class="flex justify-between md:mb-6 md:flex-row
+                        </div>
+                        <h1 class="md:text-4xl text-3xl font-bold text-[#212121] text-center mt-3">Let’s Discuss
+                              Next
+                              Project
+                        </h1>
+                        <p class="text-[#494949] md:w-[60%] mx-auto text-center mt-3 md:mt-5">The barn
+                              house
+                              captivates
+                              with its blend of rustic
+                              charm and modern sophistication, featuring
+                              weathered wood, sleek metal accents.
+                        </p>
+                        <div class="mt-6">
+                              <div class="flex justify-between md:mb-6 md:flex-row
                                      flex-col w-[100%]">
-                                          <input type="text" placeholder="First Name*"
-                                                class="input md:w-[48%]  rounded-full mb-6 md:mb-0 " />
-                                          <input type="text" placeholder="Last Name*"
-                                                class="input md:w-[48%]  rounded-full mb-6 md:mb-0 " />
-                                    </div>
-                                    <div class="flex justify-between flex-col  md:flex-row">
-                                          <input type="text" placeholder="Phone Number*"
-                                                class="input md:w-[48%]  rounded-full mb-6 md:mb-0" />
-                                          <input type="text" placeholder="Email Number*"
-                                                class="input md:w-[48%]  rounded-full mb-6 md:mb-0" />
-                                    </div>
-                                    <div>
-                                          <textarea
-                                                class="textarea w-[100%] md:mt-6 text-[#A0A0A0] md:mb-90 md:h-[200px] h-[120%]"
-                                                placeholder="Bio">Write your message here</textarea>
-                                    </div>
-                                    <div
-                                          class="green-primary btn text-xl rounded-full p-2 md:w-[100%] w-full md:mt-6 mt-4">
-                                          <a class=" ">Send Mail</a>
-                                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor"
-                                                class="size-8 bg-black text-white rounded-full p-1">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                      d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                                          </svg>
-                                    </div>
+                                    <input type="text" placeholder="First Name*"
+                                          class="input md:w-[48%] rounded-full mb-6 md:mb-0 " />
+                                    <input type="text" placeholder="Last Name*"
+                                          class="input md:w-[48%]  rounded-full mb-6 md:mb-0 " />
+                              </div>
+                              <div class="flex justify-between flex-col  md:flex-row">
+                                    <input type="text" placeholder="Phone Number*"
+                                          class="input md:w-[48%]  rounded-full mb-6 md:mb-0" />
+                                    <input type="text" placeholder="Email Number*"
+                                          class="input md:w-[48%]  rounded-full mb-6 md:mb-0" />
+                              </div>
+                              <div>
+                                    <!-- textarea w-[100%] md:mt-6 text-[#A0A0A0] md:mb-90 md:h-[200px] h-[120%] -->
+                                    <textarea md:rows="4" md:cols="7"
+                                          class="textarea md:mt-6 text-[#A0A0A0] md:mb-90 w-[100%] md:h-[200px] h-[150%]"
+                                          placeholder="Bio">Write your message here</textarea>
+                              </div>
+                              <div class="green-primary btn text-xl rounded-full p-2 md:w-[100%] w-full md:mt-6 mt-4">
+                                    <a class=" ">Send Mail</a>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                          stroke-width="1.5" stroke="currentColor"
+                                          class="size-8 bg-black text-white rounded-full p-1">
+                                          <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
                               </div>
                         </div>
                   </div>
             </section>
       </main>
       <!-- footer section -->
-      <footer class="bg-black p-10 mt-10">
+      <!-- <footer class="bg-black p-10 mt-10">
             <div class="container mx-auto w-[90%] items-center">
                   <div class="flex items-center justify-center text-center">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -564,7 +566,7 @@
                         </div>
                   </div>
             </div>
-      </footer>
+      </footer> -->
 </body>
 
 </html>
